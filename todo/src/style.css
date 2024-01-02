@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    margin-top: 20px;
+    color: #E0E0E0;
+  }
+  
+  /* New item form styles */
+  .new-item-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .new-item-form label {
+    margin-right: 10px;
+    color: #E0E0E0;
+  }
+  
+  .new-item-form input[type='text'] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .new-item-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1976D2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .new-item-form button:hover {
+    background-color: #1565C0;
+  }
+  
+  /* Todo list styles */
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .list li {
+    background-color: #1E1E1E;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list label {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .list input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .btn-danger {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D32F2F;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #C62828;
+  }
+  
